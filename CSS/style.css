@@ -1,0 +1,78 @@
+header {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  background: #536162;
+  margin-bottom: 30px;
+}
+
+body header nav {
+  text-align: right;
+  padding: 30px 30px;
+  margin-right: 250px;
+}
+
+header nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 800;
+  margin: 0px 40px;
+}
+
+body header img {
+  margin-left: 280px;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main > img {
+  margin-bottom: 30px;
+}
+
+main > section:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+article {
+  margin-left: 55%;
+}
+
+body article h2 {
+  font-weight: 900;
+  text-align: center;
+}
+
+article,
+body article p {
+  display: inline-block;
+  overflow-y: scroll;
+}
+
+article button {
+  background-color: black;
+}
+
+article button:hover {
+  background-color: blue;
+  transition-duration: 350ms;
+}
+
+article button a {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+}
+
+body footer {
+  background: #536162;
+  padding-bottom: 50px;
+}
